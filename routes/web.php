@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//测试
+Route::get('/test/index','Test\TestController@index');
+
+//用户页面
+Route::get('/user/index','User\UserController@index');
+//注册
+Route::get('/user/register','User\UserController@regview');
+//登录
+Route::get('/user/login','User\UserController@loginview');
