@@ -1,6 +1,6 @@
 <?php
 
-/**
+/**The is Laravel7.5!
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
