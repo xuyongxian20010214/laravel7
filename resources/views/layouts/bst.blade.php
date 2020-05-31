@@ -36,16 +36,13 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">我的订单</a></li>
                             <li><a href="#">待收货</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="/user/center">我的</a></li>
                         </ul>
                     </li>
                     <li><a href="/cart">购物车</a></li>
                     <li><a href="/user/login">登录</a></li>
-                    <li><a href="/user/login">退出</a></li>
+                    <li><a href="/user/register">注册</a></li>
+                    <li><a href="/user/quit">退出</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

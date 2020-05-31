@@ -1,15 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>注册</title>
-</head>
-<body>
-<h1>注册</h1>
-    <form action="" method="post">
+@extends('layouts.bst')
+@section('content')
+    <h1>注册</h1>
+    <form action="/user/register" method="post">
+        {{csrf_field()}}
         <table border="1">
             <tr>
                 <td>用户名：</td>
@@ -38,5 +31,8 @@
 
         </table>
     </form>
-</body>
-</html>
+@endsection
+@section('footer')
+    @parent
+    <script src='/js/goods/goods.js'></script>
+@endsection

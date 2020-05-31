@@ -5,5 +5,5 @@
 @endsection
 @section('footer')
     @parent
-    <script src='/js/goods/goods.js')></script>
+    <script src='/js/goods/goods.js'></script>
 @endsection
